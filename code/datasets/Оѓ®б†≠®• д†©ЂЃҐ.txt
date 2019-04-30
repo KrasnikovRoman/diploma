@@ -1,0 +1,12 @@
+Каждому из объектов соответствует файл с ракурсами, описанного в документе "Описание объектов и системы координат":
+coneC.dat - конус;
+cylinderC.dat - цилиндр;
+doveC.dat - спутник Dove(flock);
+isaraC.dat - спутник ISARA;
+lemurC.dat - спутник Lemur;
+
+Файлы имеют следующий формат:
+alpha beta gamma HHRe HHIm HVRe HVIm VVRe VVIm X X X X X
+где alpha beta gamma - поворот осей относительно начального положения
+HHRe HHIm HVRe HVIm VVRe VVIm - значение ПМР
+X X X X X - метка объекта.
